@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+<div class="header">
+<h3>Cadastre seu currículo abaixo</h3> </div>
+  </div>
+<div class="form-container">
+<div class="form-header">
+      <p>Formulário</p> 
+
+      </div>
+    <div class="form-body">
+        <h1 class="name">Tenha novas oportunidades de emprego!</h1>
+<p>Preencha o formulário abaixo com suas informações pessoais </p>
+<form>
+
+    <div class="box-input">
+        <label for="email">E-mail
+             <span class="reqired-field">*</span></label>
+             <input type="email" 
+             name="email" 
+             id="email" 
+             class="block" 
+             placeholder="Seu e-mail" 
+             minlength="1"
+             maxlength="45"
+             required>
+             </div>
+
+
+
+
+
+    <div class="box-input">
+        <label for="name">Nome Completo
+             <span class="reqired-field">*</span></label>
+             <input type="text" 
+             name="name" 
+             id="name" 
+             class="block" 
+             placeholder="Seu nome" 
+             minlength="1"
+             maxlength="30"
+             required>
+             </div>
+
+<div class="box-input">
+    <label for="age">Data de Nascimento
+        <span class="reqired-field">*</span></label>
+        <input type="date" 
+        name="age" 
+        id="age" 
+        class="block" 
+        minlength="1"
+        maxlength="2"
+        required>
+      </div>
+
+
+
+
+    <div class="box-input">
+        <label for="job"> Cargo
+             <span class="reqired-field">*</span></label>
+             <input type="text" 
+             name="job" 
+             id="job" 
+             class="block" 
+             placeholder="Qual cargo você busca?" 
+             required>
+             
+    </div>
+
+
+<div class="box-input">
+    <label for="description"> Experiência Profissional 
+         <span class="reqired-field">*</span></label>
+         <textarea name="description" id="description" class="block" placeholder="Suas experiências profissionais"></textarea>
+    </div>
+
+    <div class="box-form">
+        <label for="formacao">Selecione sua escolaridade 
+        <span class="reqired-field">*</span></label>
+        <select name="formacao" >
+        <option value="Ensino medio incompleto">Ensino Médio Incompleto</option>
+        <option value="Ensino medio ompleto">Ensino Médio Completo</option>
+        <option value="Ensino Superior Incompleto">Ensino Superior Incompleto</option>
+        <option value="Ensino Superior Completo">Ensino Superior Completo</option>
+            
+        </select> </div>
+
+
+
+    <div class="box-input">
+    <label for="qualificacao"> Cursos Qualificantes
+         <span class="reqired-field">*</span></label>
+         <textarea name="description" id="description" class="block" placeholder="Preencha com seus cursos profissioanis realizados"></textarea>
+    </div>
+
+    <div class="box-input">
+        <label for="salario">Pretensão salarial
+             <span class="reqired-field">*</span></label>
+             <input type="number" 
+             name="salario" 
+             id="salario" 
+             class="block" 
+             placeholder="Digite o valor desejado" 
+             required>
+             
+    </div>
+
+
+
+    <input type="submit" value="Enviar" class="btn-submit"/>
+</form>
+ </div>
+  </div>
+   </div> 
+    </body>
+     </html>  
